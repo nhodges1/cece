@@ -1,0 +1,14 @@
+.hero {
+    position: relative;
+    /**text-align: center;**/
+    /**margin: auto;**/
+    /**display: flex;**/
+    /**align-items: center;**/
+    /**justify-content: center;**/
+    /**height: auto;**/
+}
+
+.hero h1 {
+    text-align: center;
+    margin: auto;
+}
