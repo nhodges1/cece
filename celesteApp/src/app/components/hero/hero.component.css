@@ -1,14 +1,15 @@
-.hero {
-    position: relative;
-    /**text-align: center;**/
-    /**margin: auto;**/
-    /**display: flex;**/
-    /**align-items: center;**/
-    /**justify-content: center;**/
-    /**height: auto;**/
-}
+/* .hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../../assets/images/hero.jpg);
+    background-size: cover;
+    opacity: 0.8;
+} */
 
-.hero h1 {
-    text-align: center;
-    margin: auto;
+.hero {
+    height: calc(100vh - 60px); /* Adjust 60px according to your actual navbar height */
+    width: 100vw;
+    background-image: url(../../../assets/images/hero.jpg);
+    background-size: cover;
+    opacity: 0.8;
 }
