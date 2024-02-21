@@ -9,7 +9,49 @@
 .hero {
     height: calc(100vh - 60px); /* Adjust 60px according to your actual navbar height */
     width: 100vw;
-    background-image: url(../../../assets/images/hero.jpg);
+    background-image: url(../../../assets/images/hero1);
     background-size: cover;
-    opacity: 0.8;
+    opacity: 1;
+}
+
+.card {
+    max-width: 900px;
+    /* background-color: transparent !important; */
+    background-color: rgba(248, 143, 143, 0.737); /* Adjust the alpha value (0.0 to 1.0) for transparency */
+    border: none !important;
+}
+
+.col-md-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Use viewport height for full-screen vertical centering */
+}
+
+.card-title {
+    color: #23685c;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 399;
+    padding-bottom: 15px;
+    font-size: 45px;
+}
+
+.card-text {
+    font-size: 24px;
+    color: #23685c;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 399;
+    padding-bottom: 15px;
+}
+
+.btn {
+    text-align: center;
+    background-color: #23685c;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 399;
 }

@@ -2,10 +2,12 @@
     flex-direction: column;
 }
 
-.navbar-brand {
-    font-size: 40px;
+.navbar-title {
+    font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #198371;
+    color: #23685c;
+    font-weight: 399;
+    text-decoration: none;
 }
 
 .navbar-nav > li {
